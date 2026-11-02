@@ -2023,7 +2023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4846d28a-c965-48a2-af5b-e8577c444b8d")
-		(property "Reference" "J1"
+		(property "Reference" "J14"
 			(at 154.94 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2167,7 +2167,7 @@
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a54fc00f-fafd-4737-8233-9eaf2c6b1971"
-					(reference "J1")
+					(reference "J14")
 					(unit 1)
 				)
 			)
