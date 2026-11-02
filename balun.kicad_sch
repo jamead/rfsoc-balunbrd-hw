@@ -1,0 +1,1169 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e5834ee0-e250-4371-8de8-e89dd294dbc5")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "my-symbols:TCM2-33WX+"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "T"
+				(at -3.302 -9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TCM2-33WX+"
+				(at -7.366 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "My_Footprints:DB1627_SAA"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.minicircuits.com/pdfs/TCM2-33WX%2B.pdf"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mini-Circuits 1:2 impedance RF balun transformer, 10 MHz to 3 GHz, DB1627, 6-pad SMD. Pin 2 is the primary return and should be grounded; pin 5 is GND; pin 1 NC."
+				(at 0 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Mini-Circuits RF balun transformer 1:2 TCM2 33WX DB1627"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TCM2-33WX+_0_1"
+				(rectangle
+					(start -13.97 10.16)
+					(end -1.27 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "RF BALUN"
+					(at -7.874 0.762 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(text "1:2 Z"
+					(at -7.62 2.794 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "TCM2-33WX+_1_1"
+				(text "180Deg\n"
+					(at -5.588 8.636 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "\n0Deg\n"
+					(at -4.064 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -11.43 -11.43 90)
+					(length 3.81)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -2.54 0)
+					(length 3.81)
+					(name "P-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 180)
+					(length 3.81)
+					(name "S-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 3.81)
+					(name "S+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -11.43 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 5.08 0)
+					(length 3.81)
+					(name "P+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 137.16 86.36) (xy 144.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0380bd55-1b71-4106-81f5-4426f583f4da")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 144.78 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12892c67-835c-4c08-aae4-cb5ce65be75e")
+	)
+	(wire
+		(pts
+			(xy 149.86 93.98) (xy 161.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2484e1fd-43e5-4947-bea1-6f37d5ca4657")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 114.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f1ebdd-a354-451f-beeb-f4e586bf4646")
+	)
+	(wire
+		(pts
+			(xy 149.86 86.36) (xy 161.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527f41f2-42c8-400f-9714-932eb2a158c8")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 116.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebb23ce-db51-49c3-b45d-e2ef0693bfd8")
+	)
+	(wire
+		(pts
+			(xy 125.73 102.87) (xy 125.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6352b85-a013-4c37-bf0e-bae70b1c2d8b")
+	)
+	(wire
+		(pts
+			(xy 114.3 93.98) (xy 114.3 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e7aa9a-5b02-4bbf-95dd-5421cc297dd6")
+	)
+	(hierarchical_label "rf_out_p"
+		(shape output)
+		(at 161.29 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bdee991-588c-4687-a474-dd0e787822e2")
+	)
+	(hierarchical_label "rf_out_n"
+		(shape output)
+		(at 161.29 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b81918c5-b34c-4910-9dc0-90f26d59e8b4")
+	)
+	(hierarchical_label "rf_in"
+		(shape input)
+		(at 99.06 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbc3a61a-08a9-4ce6-bc06-3b78e3488c8b")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 147.32 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "155d42f9-9b39-4cd5-b2ed-2bf32a274562")
+		(property "Reference" "C2"
+			(at 147.32 97.282 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 147.32 100.584 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 147.32 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "618a4c65-f2ba-4fd8-99ff-80b87da53f75")
+		)
+		(pin "2"
+			(uuid "86eaab64-26fb-4987-94d0-1fa39d980934")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/030c4347-497f-43dc-a470-27a59cbbcdca"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/06cfc97d-180b-43a7-a5ba-82989dad3f65"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/5c182b0d-d4f6-4a15-b24e-d615f3221681"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/9a63afb4-4357-4d00-8dbd-b5a3ae11b067"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/aed26663-ea16-4ad7-9d65-71da2d47e497"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/c2af65b9-1a97-4dc3-8640-4dad4455c0c3"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/d0a17c05-3cc9-46dc-a691-39abe39c612d"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/e9940ecf-a6b8-461f-a9bf-ff0d3ec16806"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1efade0f-812a-44a4-ab4b-47b42a0dd1a3")
+		(property "Reference" "#PWR013"
+			(at 114.3 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "131d126a-8fa0-48a6-b1e8-255ba4c99299")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/030c4347-497f-43dc-a470-27a59cbbcdca"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/06cfc97d-180b-43a7-a5ba-82989dad3f65"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/5c182b0d-d4f6-4a15-b24e-d615f3221681"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/9a63afb4-4357-4d00-8dbd-b5a3ae11b067"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/aed26663-ea16-4ad7-9d65-71da2d47e497"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/c2af65b9-1a97-4dc3-8640-4dad4455c0c3"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/d0a17c05-3cc9-46dc-a691-39abe39c612d"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/e9940ecf-a6b8-461f-a9bf-ff0d3ec16806"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 147.32 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48afeb37-cb40-46d1-a7bc-b1a88c43347a")
+		(property "Reference" "C1"
+			(at 147.32 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 147.32 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 147.32 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db7c5497-db0a-43de-84cb-7e5c5af2a0fb")
+		)
+		(pin "2"
+			(uuid "bbc7e5bd-56f4-4228-9089-10c87bb44844")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/030c4347-497f-43dc-a470-27a59cbbcdca"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/06cfc97d-180b-43a7-a5ba-82989dad3f65"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/5c182b0d-d4f6-4a15-b24e-d615f3221681"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/9a63afb4-4357-4d00-8dbd-b5a3ae11b067"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/aed26663-ea16-4ad7-9d65-71da2d47e497"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/c2af65b9-1a97-4dc3-8640-4dad4455c0c3"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/d0a17c05-3cc9-46dc-a691-39abe39c612d"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/e9940ecf-a6b8-461f-a9bf-ff0d3ec16806"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c630889f-1aab-4229-a1ef-b43bb5c5e442")
+		(property "Reference" "#PWR012"
+			(at 125.73 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35b141eb-a748-46b1-b00f-9514a79309b1")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/030c4347-497f-43dc-a470-27a59cbbcdca"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/06cfc97d-180b-43a7-a5ba-82989dad3f65"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/5c182b0d-d4f6-4a15-b24e-d615f3221681"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/9a63afb4-4357-4d00-8dbd-b5a3ae11b067"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/aed26663-ea16-4ad7-9d65-71da2d47e497"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/c2af65b9-1a97-4dc3-8640-4dad4455c0c3"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/d0a17c05-3cc9-46dc-a691-39abe39c612d"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/e9940ecf-a6b8-461f-a9bf-ff0d3ec16806"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my-symbols:TCM2-33WX+")
+		(at 134.62 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e248d649-5104-4efb-8d7a-e2b6a9690266")
+		(property "Reference" "T1"
+			(at 127 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCM2-33WX+"
+			(at 127 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My_Footprints:DB1627_SAA"
+			(at 134.62 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/TCM2-33WX%2B.pdf"
+			(at 134.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mini-Circuits 1:2 impedance RF balun transformer, 10 MHz to 3 GHz, DB1627, 6-pad SMD. Pin 2 is the primary return and should be grounded; pin 5 is GND; pin 1 NC."
+			(at 134.62 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "1bc9d176-7155-4459-b7cb-f17076daab81")
+		)
+		(pin "1"
+			(uuid "db1f8456-2270-4fad-84f7-450d3c742e77")
+		)
+		(pin "5"
+			(uuid "96d8c672-0f89-41b9-ac7a-b2157514d8f9")
+		)
+		(pin "2"
+			(uuid "56922fe5-3fa5-4825-9b85-e0a995ecefb7")
+		)
+		(pin "4"
+			(uuid "2dbaf538-a5c2-46d6-89cc-55e8d15e0ccc")
+		)
+		(pin "3"
+			(uuid "f6f723f2-3775-4f62-baa1-56739cda2c75")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/030c4347-497f-43dc-a470-27a59cbbcdca"
+					(reference "T2")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/06cfc97d-180b-43a7-a5ba-82989dad3f65"
+					(reference "T3")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/5c182b0d-d4f6-4a15-b24e-d615f3221681"
+					(reference "T5")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/9a63afb4-4357-4d00-8dbd-b5a3ae11b067"
+					(reference "T1")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/aed26663-ea16-4ad7-9d65-71da2d47e497"
+					(reference "T7")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/c2af65b9-1a97-4dc3-8640-4dad4455c0c3"
+					(reference "T6")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/d0a17c05-3cc9-46dc-a691-39abe39c612d"
+					(reference "T4")
+					(unit 1)
+				)
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/e9940ecf-a6b8-461f-a9bf-ff0d3ec16806"
+					(reference "T8")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

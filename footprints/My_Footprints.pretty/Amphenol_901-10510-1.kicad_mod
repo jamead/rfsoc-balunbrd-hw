@@ -1,0 +1,201 @@
+(footprint "Amphenol_901-10510-1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Amphenol RF 901-10510-1 SMA jack, high frequency end launch, 4 through-hole solder ground posts; BOARD EDGE at x=0, board extends left. See manufacturer drawing 901-10510-1 Rev A.")
+	(tags "SMA coax end-launch edge-mount Amphenol 901-10510-1 through-hole")
+	(property "Reference" "J"
+		(at -2.3 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "4f31d0be-2be9-4016-8801-d0b79e74e42a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "901-10510-1"
+		(at -1.6 4.5 0)
+		(layer "F.Fab")
+		(uuid "e1c164a9-b338-48c7-9e7d-2996975fe704")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d088e750-1b43-428a-9b43-9952f7be0064")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5ec401f-09de-45f8-a219-96aef6c40ce0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -4)
+		(end 0 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "81ab0fb7-dcb1-401a-9c1b-a69c98705ff2")
+	)
+	(fp_rect
+		(start -5.05 -3.675)
+		(end 11.68 3.675)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d87db049-9f8d-49fd-a654-0a9514412507")
+	)
+	(fp_line
+		(start 1.65 0)
+		(end 11.18 0)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e78a2cf-c8ef-403d-af71-1c92583f1b0e")
+	)
+	(fp_rect
+		(start -4.55 -3.175)
+		(end 0 3.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "79976731-0030-4bcd-99f1-c9e97a9551f8")
+	)
+	(fp_rect
+		(start 0 -3.175)
+		(end 1.65 3.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d7b49e05-c44c-47b6-b665-304dd96a26ae")
+	)
+	(fp_rect
+		(start 1.65 -3.15)
+		(end 11.18 3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6eef0bfc-aa08-4b05-99f1-afe0d17cb77b")
+	)
+	(fp_text user "PCB SIDE <--"
+		(at -4 5.4 0)
+		(layer "Dwgs.User")
+		(uuid "40a8dc97-69be-4d82-b8a8-35114d8a632f")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "BOARD EDGE x=0"
+		(at 0 5.4 0)
+		(layer "Dwgs.User")
+		(uuid "f8c0fbb3-a822-4485-bdb7-34cfaf007df8")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.3 0 0)
+		(layer "F.Fab")
+		(uuid "d02452c1-bcf1-4126-ad05-ef1dc640b3bc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0)
+		(size 1.6 0.41)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0bb16cff-5794-449a-bae3-f058b5afa4dd")
+	)
+	(pad "2" thru_hole circle
+		(at -3.96 -1.22)
+		(size 1.6 1.6)
+		(drill 1.14)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc1cd6c6-08fd-4333-b1cd-1394d4cd1ccd")
+	)
+	(pad "2" thru_hole circle
+		(at -3.96 1.22)
+		(size 1.6 1.6)
+		(drill 1.14)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1c0b341-82f8-4e11-bf64-9e2a40a6d72e")
+	)
+	(pad "2" thru_hole circle
+		(at -1.75 -1.22)
+		(size 1.6 1.6)
+		(drill 1.14)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf7e84d2-a7a4-4df5-896a-d0d2c48300ab")
+	)
+	(pad "2" thru_hole circle
+		(at -1.75 1.22)
+		(size 1.6 1.6)
+		(drill 1.14)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3cd7056a-7bcc-4093-869b-1d15fb6c69ea")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/Amphenol_901-10510-1_APPROX.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
