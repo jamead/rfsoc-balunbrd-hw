@@ -1,0 +1,101 @@
+(footprint "RF_Balun_Cage_T1-T4_6xM2p5_ContinuousGND"
+  (version 20240108)
+  (generator "pcbnew")
+  (layer "F.Cu")
+  (descr "Integral-wall 4-cavity RF shield, 6x M2.5 tapped blind holes; one continuous custom F.Cu GND land plus 6 plated mounting holes")
+  (attr through_hole)
+  (property "Reference" "SH1" (at 29 17) (layer "F.SilkS") (effects (font (size 1 1) (thickness 0.15))))
+  (property "Value" "RF_Balun_Cage_T1-T4_6xM2p5_ContinuousGND" (at 29 18.8) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+  (fp_line (start -12.576 -11.050) (end 58.294 -11.050) (stroke (width 0.12) (type default)) (layer "F.Fab"))
+  (fp_line (start 58.294 -11.050) (end 58.294 11.300) (stroke (width 0.12) (type default)) (layer "F.Fab"))
+  (fp_line (start 58.294 11.300) (end -12.576 11.300) (stroke (width 0.12) (type default)) (layer "F.Fab"))
+  (fp_line (start -12.576 11.300) (end -12.576 -11.050) (stroke (width 0.12) (type default)) (layer "F.Fab"))
+  (fp_line (start -12.826 -11.300) (end 58.544 -11.300) (stroke (width 0.05) (type default)) (layer "F.CrtYd"))
+  (fp_line (start 58.544 -11.300) (end 58.544 11.550) (stroke (width 0.05) (type default)) (layer "F.CrtYd"))
+  (fp_line (start 58.544 11.550) (end -12.826 11.550) (stroke (width 0.05) (type default)) (layer "F.CrtYd"))
+  (fp_line (start -12.826 11.550) (end -12.826 -11.300) (stroke (width 0.05) (type default)) (layer "F.CrtYd"))
+  (fp_line (start -6.200 -6.100) (end 6.200 -6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 6.200 -6.100) (end 6.200 6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 6.200 6.100) (end -6.200 6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start -6.200 6.100) (end -6.200 -6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start -1.450 -11.050) (end 1.050 -11.050) (stroke (width 0.18) (type default)) (layer "F.Fab"))
+  (fp_line (start -1.700 11.300) (end 1.300 11.300) (stroke (width 0.18) (type default)) (layer "F.Fab"))
+  (fp_line (start 9.040 -6.100) (end 21.440 -6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 21.440 -6.100) (end 21.440 6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 21.440 6.100) (end 9.040 6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 9.040 6.100) (end 9.040 -6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 13.790 -11.050) (end 16.290 -11.050) (stroke (width 0.18) (type default)) (layer "F.Fab"))
+  (fp_line (start 13.540 11.300) (end 16.540 11.300) (stroke (width 0.18) (type default)) (layer "F.Fab"))
+  (fp_line (start 24.280 -6.100) (end 36.680 -6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 36.680 -6.100) (end 36.680 6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 36.680 6.100) (end 24.280 6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 24.280 6.100) (end 24.280 -6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 29.030 -11.050) (end 31.530 -11.050) (stroke (width 0.18) (type default)) (layer "F.Fab"))
+  (fp_line (start 28.780 11.300) (end 31.780 11.300) (stroke (width 0.18) (type default)) (layer "F.Fab"))
+  (fp_line (start 39.520 -6.100) (end 51.920 -6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 51.920 -6.100) (end 51.920 6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 51.920 6.100) (end 39.520 6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 39.520 6.100) (end 39.520 -6.100) (stroke (width 0.08) (type default)) (layer "F.Fab"))
+  (fp_line (start 44.270 -11.050) (end 46.770 -11.050) (stroke (width 0.18) (type default)) (layer "F.Fab"))
+  (fp_line (start 44.020 11.300) (end 47.020 11.300) (stroke (width 0.18) (type default)) (layer "F.Fab"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  (pad "1" smd custom (at -9.826 0.000) (size 0.30 0.30)
+    (layers "F.Cu" "F.Mask")
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives (gr_poly (pts (xy -2.570 -10.870) (xy -2.570 11.120) (xy 7.826 11.120) (xy 7.826 6.280) (xy 3.476 6.280) (xy 3.476 -6.280) (xy 8.076 -6.280) (xy 8.076 -10.870)) (width 0) (fill yes)))
+  )
+  (pad "1" smd custom (at 7.620 0.000) (size 0.30 0.30)
+    (layers "F.Cu" "F.Mask")
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives (gr_poly (pts (xy -1.270 6.280) (xy -6.020 6.280) (xy -6.020 11.120) (xy 5.620 11.120) (xy 5.620 6.280) (xy 1.270 6.280) (xy 1.270 -6.280) (xy 5.870 -6.280) (xy 5.870 -10.870) (xy -6.270 -10.870) (xy -6.270 -6.280) (xy -1.270 -6.280)) (width 0) (fill yes)))
+  )
+  (pad "1" smd custom (at 22.860 0.000) (size 0.30 0.30)
+    (layers "F.Cu" "F.Mask")
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives (gr_poly (pts (xy 5.870 -10.870) (xy -6.270 -10.870) (xy -6.270 -6.280) (xy -1.270 -6.280) (xy -1.270 6.280) (xy -6.020 6.280) (xy -6.020 11.120) (xy 5.620 11.120) (xy 5.620 6.280) (xy 1.270 6.280) (xy 1.270 -6.280) (xy 5.870 -6.280)) (width 0) (fill yes)))
+  )
+  (pad "1" smd custom (at 38.100 0.000) (size 0.30 0.30)
+    (layers "F.Cu" "F.Mask")
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives (gr_poly (pts (xy -1.270 6.280) (xy -6.020 6.280) (xy -6.020 11.120) (xy 5.620 11.120) (xy 5.620 6.280) (xy 1.270 6.280) (xy 1.270 -6.280) (xy 5.870 -6.280) (xy 5.870 -10.870) (xy -6.270 -10.870) (xy -6.270 -6.280) (xy -1.270 -6.280)) (width 0) (fill yes)))
+  )
+  (pad "1" smd custom (at 55.546 0.000) (size 0.30 0.30)
+    (layers "F.Cu" "F.Mask")
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives (gr_poly (pts (xy -3.476 6.280) (xy -8.226 6.280) (xy -8.226 11.120) (xy 2.568 11.120) (xy 2.568 -10.870) (xy -8.476 -10.870) (xy -8.476 -6.280) (xy -3.476 -6.280)) (width 0) (fill yes)))
+  )
+  (pad "1" thru_hole circle (at -9.826 -8.500) (size 4.8 4.8) (drill 2.8) (layers "*.Cu" "*.Mask") (zone_connect 2))
+  (pad "1" thru_hole circle (at 22.860 -8.500) (size 4.8 4.8) (drill 2.8) (layers "*.Cu" "*.Mask") (zone_connect 2))
+  (pad "1" thru_hole circle (at 55.546 -8.500) (size 4.8 4.8) (drill 2.8) (layers "*.Cu" "*.Mask") (zone_connect 2))
+  (pad "1" thru_hole circle (at -9.826 8.700) (size 4.8 4.8) (drill 2.8) (layers "*.Cu" "*.Mask") (zone_connect 2))
+  (pad "1" thru_hole circle (at 22.860 8.700) (size 4.8 4.8) (drill 2.8) (layers "*.Cu" "*.Mask") (zone_connect 2))
+  (pad "1" thru_hole circle (at 55.546 8.700) (size 4.8 4.8) (drill 2.8) (layers "*.Cu" "*.Mask") (zone_connect 2))
+  (pad "1" thru_hole circle (at 7.620 0.000) (size 0.90 0.90) (drill 0.35) (layers "*.Cu" "*.Mask") (zone_connect 2))
+  (pad "1" thru_hole circle (at 38.100 0.000) (size 0.90 0.90) (drill 0.35) (layers "*.Cu" "*.Mask") (zone_connect 2))
+  (model "${KIPRJMOD}/RF_Balun_Cage_T1-T4_6xM2p5_IntegralWalls_NarrowSlots.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+)

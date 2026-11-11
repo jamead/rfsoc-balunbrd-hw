@@ -5,121 +5,6 @@
 	(uuid "ad29aaae-a78f-496d-bd10-ffe5d7c6755d")
 	(paper "B")
 	(lib_symbols
-		(symbol "My_Symbols:+1.8V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+1.8V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-15V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+1.8V_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "+1.8V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "My_Symbols:+5.0V"
 			(power global)
 			(pin_numbers
@@ -10018,6 +9903,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 185.42) (xy 386.08 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023972f1-b52d-40b3-9c90-5b874eb8c13f")
+	)
+	(wire
+		(pts
 			(xy 22.86 167.64) (xy 38.1 167.64)
 		)
 		(stroke
@@ -10075,16 +9970,6 @@
 			(type default)
 		)
 		(uuid "034dda80-76c5-44b2-b71b-9a864a761876")
-	)
-	(wire
-		(pts
-			(xy 166.37 170.18) (xy 190.5 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03e6f388-8a10-40de-94bf-449ba1cfa072")
 	)
 	(wire
 		(pts
@@ -10418,16 +10303,6 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 185.42) (xy 373.38 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c8f4f7c-7042-459f-a54b-d963517f7d54")
-	)
-	(wire
-		(pts
 			(xy 391.16 88.9) (xy 391.16 91.44)
 		)
 		(stroke
@@ -10688,16 +10563,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 170.18) (xy 292.1 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19affe30-7dc0-45fa-b40f-916941148bf6")
-	)
-	(wire
-		(pts
 			(xy 391.16 149.86) (xy 393.7 149.86)
 		)
 		(stroke
@@ -10765,16 +10630,6 @@
 			(type default)
 		)
 		(uuid "1c5ddf30-6323-4c6d-8453-9570c500eae5")
-	)
-	(wire
-		(pts
-			(xy 292.1 185.42) (xy 271.78 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cc310aa-dbeb-48ed-b04c-9e62cdfed53c")
 	)
 	(wire
 		(pts
@@ -11228,16 +11083,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 172.72) (xy 119.38 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "295fa945-39a4-4d69-b6b1-772fae20f590")
-	)
-	(wire
-		(pts
 			(xy 35.56 129.54) (xy 38.1 129.54)
 		)
 		(stroke
@@ -11328,16 +11173,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 172.72) (xy 322.58 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c560287-0b70-403c-9e98-ab177fbec306")
-	)
-	(wire
-		(pts
 			(xy 35.56 124.46) (xy 38.1 124.46)
 		)
 		(stroke
@@ -11395,6 +11230,16 @@
 			(type default)
 		)
 		(uuid "2dc402ef-c349-4f5f-89e3-153679794fd1")
+	)
+	(wire
+		(pts
+			(xy 241.3 172.72) (xy 233.68 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de02c97-5978-4ea7-90a4-f7fbfafdd860")
 	)
 	(wire
 		(pts
@@ -12508,16 +12353,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 172.72) (xy 220.98 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56b015a8-1cb5-4e6d-aaba-cf0b3ddcea9a")
-	)
-	(wire
-		(pts
 			(xy 35.56 106.68) (xy 35.56 109.22)
 		)
 		(stroke
@@ -12898,16 +12733,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 172.72) (xy 119.38 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61a75c7c-3d91-41ae-af7d-30ec31d6676e")
-	)
-	(wire
-		(pts
 			(xy 340.36 93.98) (xy 340.36 99.06)
 		)
 		(stroke
@@ -12948,16 +12773,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 170.18) (xy 271.78 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a03213-5bfa-4f8e-a4b9-3967162cfa3a")
-	)
-	(wire
-		(pts
 			(xy 340.36 124.46) (xy 340.36 127)
 		)
 		(stroke
@@ -12978,16 +12793,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 181.61) (xy 373.38 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "653c7e53-3776-425f-b6df-b779ac5bc828")
-	)
-	(wire
-		(pts
 			(xy 86.36 91.44) (xy 88.9 91.44)
 		)
 		(stroke
@@ -12995,16 +12800,6 @@
 			(type default)
 		)
 		(uuid "656ec34a-e89f-4f6e-ad40-8eda712118fe")
-	)
-	(wire
-		(pts
-			(xy 17.78 172.72) (xy 17.78 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65853575-1ca8-4211-a9c6-1d0e654429c4")
 	)
 	(wire
 		(pts
@@ -13145,16 +12940,6 @@
 			(type default)
 		)
 		(uuid "699bde43-9012-4278-94ad-dfa75369884c")
-	)
-	(wire
-		(pts
-			(xy 373.38 170.18) (xy 373.38 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69caafa5-640b-4dfc-9c5c-8d44a196e616")
 	)
 	(wire
 		(pts
@@ -13768,16 +13553,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 170.18) (xy 393.7 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "800c3839-deb3-4bdc-bb73-530a654affdb")
-	)
-	(wire
-		(pts
 			(xy 35.56 119.38) (xy 38.1 119.38)
 		)
 		(stroke
@@ -13805,16 +13580,6 @@
 			(type default)
 		)
 		(uuid "80ed8fc7-1599-4fea-9b00-3daaaec3ed6d")
-	)
-	(wire
-		(pts
-			(xy 271.78 181.61) (xy 271.78 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8113b1ab-b985-4d30-a246-614aaa3980b7")
 	)
 	(wire
 		(pts
@@ -13885,6 +13650,16 @@
 			(type default)
 		)
 		(uuid "82f9be92-e1f3-42e1-ae4c-500fcf674d4c")
+	)
+	(wire
+		(pts
+			(xy 292.1 185.42) (xy 284.48 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c0e99f-9ca7-40d1-aba2-a1daa509e27d")
 	)
 	(wire
 		(pts
@@ -14255,6 +14030,16 @@
 			(type default)
 		)
 		(uuid "8da379b9-5aa9-4cdc-9fe5-69ed48ee54df")
+	)
+	(bus
+		(pts
+			(xy 187.96 224.79) (xy 207.01 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0cd576-de3b-4b32-99e7-9ffd2c8f94a0")
 	)
 	(wire
 		(pts
@@ -14668,6 +14453,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 170.18) (xy 386.08 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9efac5ce-541a-40ad-83a9-2f6dc34b0422")
+	)
+	(wire
+		(pts
 			(xy 289.56 124.46) (xy 289.56 127)
 		)
 		(stroke
@@ -14928,7 +14723,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 172.72) (xy 17.78 172.72)
+			(xy 38.1 172.72) (xy 30.48 172.72)
 		)
 		(stroke
 			(width 0)
@@ -15045,16 +14840,6 @@
 			(type default)
 		)
 		(uuid "ac9958f0-c324-4f51-a8b5-c8df0f2f2e24")
-	)
-	(wire
-		(pts
-			(xy 322.58 170.18) (xy 322.58 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acfee5ba-89e2-48fb-af32-02de79f3cbf2")
 	)
 	(wire
 		(pts
@@ -15528,16 +15313,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 170.18) (xy 166.37 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c20c372c-d47d-42f5-85ae-cc20346f1575")
-	)
-	(wire
-		(pts
 			(xy 35.56 157.48) (xy 38.1 157.48)
 		)
 		(stroke
@@ -15695,6 +15470,16 @@
 			(type default)
 		)
 		(uuid "c8bd0a6e-8206-4c68-b967-af01f3d65ed2")
+	)
+	(bus
+		(pts
+			(xy 187.96 229.87) (xy 207.01 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c92c7348-41de-44d9-b64f-08ebb81de008")
 	)
 	(wire
 		(pts
@@ -16268,6 +16053,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 172.72) (xy 335.28 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6d0921-4f55-4f91-a6f3-554302c42370")
+	)
+	(wire
+		(pts
 			(xy 271.78 73.66) (xy 292.1 73.66)
 		)
 		(stroke
@@ -16325,6 +16120,16 @@
 			(type default)
 		)
 		(uuid "dd46fe50-60e8-40ee-9b97-706235ab36db")
+	)
+	(wire
+		(pts
+			(xy 190.5 170.18) (xy 182.88 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de00458c-943c-4a9f-80f5-5d3eb2b0811a")
 	)
 	(wire
 		(pts
@@ -16425,6 +16230,16 @@
 			(type default)
 		)
 		(uuid "e2451396-8642-4dfc-ac8d-3755a7863c56")
+	)
+	(wire
+		(pts
+			(xy 88.9 170.18) (xy 81.28 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e25b910a-83f8-416c-9185-2fb37348f436")
 	)
 	(wire
 		(pts
@@ -16598,6 +16413,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 170.18) (xy 284.48 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97dd212-6f5a-48db-92eb-79c186ddb318")
+	)
+	(wire
+		(pts
 			(xy 391.16 154.94) (xy 393.7 154.94)
 		)
 		(stroke
@@ -16668,6 +16493,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 172.72) (xy 132.08 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec586f96-03c2-40fc-b963-3652fdaa68a8")
+	)
+	(wire
+		(pts
 			(xy 86.36 119.38) (xy 86.36 121.92)
 		)
 		(stroke
@@ -16685,16 +16520,6 @@
 			(type default)
 		)
 		(uuid "ece1c5f6-e710-4195-a409-9dbfb80d8d89")
-	)
-	(wire
-		(pts
-			(xy 64.77 170.18) (xy 64.77 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed6022a5-615e-430f-89b9-cd08794ef416")
 	)
 	(wire
 		(pts
@@ -16948,16 +16773,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 170.18) (xy 88.9 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4670081-e7c6-4cc4-9b81-546176864430")
-	)
-	(wire
-		(pts
 			(xy 124.46 177.8) (xy 139.7 177.8)
 		)
 		(stroke
@@ -17015,16 +16830,6 @@
 			(type default)
 		)
 		(uuid "f63b5cb2-031d-4264-90fa-366b21911909")
-	)
-	(wire
-		(pts
-			(xy 241.3 172.72) (xy 220.98 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f63fecb3-0121-4657-b7fa-c5f7265a1369")
 	)
 	(wire
 		(pts
@@ -17256,7 +17061,7 @@
 		)
 		(uuid "23f9ad73-ad4c-4e60-ad63-fed5a7493159")
 	)
-	(label "adc_io3"
+	(label "adcio3"
 		(at 73.66 180.34 0)
 		(effects
 			(font
@@ -17276,7 +17081,7 @@
 		)
 		(uuid "35488134-c803-477e-bd80-a3f7f628ffde")
 	)
-	(label "adcio_01"
+	(label "adcio1"
 		(at 24.13 182.88 0)
 		(effects
 			(font
@@ -17296,7 +17101,7 @@
 		)
 		(uuid "4477db53-ff67-4443-9320-8f09b8236e70")
 	)
-	(label "adcio_00"
+	(label "adcio0"
 		(at 24.13 177.8 0)
 		(effects
 			(font
@@ -17336,7 +17141,7 @@
 		)
 		(uuid "5139eada-ad63-4407-89ed-27b10b9f465e")
 	)
-	(label "adcio_05"
+	(label "adcio5"
 		(at 125.73 182.88 0)
 		(effects
 			(font
@@ -17386,7 +17191,7 @@
 		)
 		(uuid "7dafbdcc-a125-4a51-a59e-cc03cb63a684")
 	)
-	(label "adcio_11"
+	(label "adcio11"
 		(at 278.13 180.34 0)
 		(effects
 			(font
@@ -17396,7 +17201,7 @@
 		)
 		(uuid "7f5c886f-53b4-432f-9ad5-4ec3954c4414")
 	)
-	(label "afe_sda"
+	(label "dfe_i2c.sda"
 		(at 175.26 185.42 0)
 		(effects
 			(font
@@ -17416,7 +17221,7 @@
 		)
 		(uuid "8863b031-7425-4678-83b7-682bdbf67a00")
 	)
-	(label "adcio_06"
+	(label "adcio6"
 		(at 175.26 175.26 0)
 		(effects
 			(font
@@ -17456,7 +17261,7 @@
 		)
 		(uuid "92bcb9d0-3796-4717-8f32-708d15f0971b")
 	)
-	(label "afe_scl"
+	(label "dfe_i2c.scl"
 		(at 73.66 185.42 0)
 		(effects
 			(font
@@ -17486,7 +17291,7 @@
 		)
 		(uuid "a50debbd-aa7d-4123-9e86-7ab5e0bd2ccf")
 	)
-	(label "adcio_15"
+	(label "adcio15"
 		(at 379.73 180.34 0)
 		(effects
 			(font
@@ -17496,7 +17301,7 @@
 		)
 		(uuid "a5458531-6ea3-41e5-b4ff-e7fa0e316fff")
 	)
-	(label "adcio_13"
+	(label "adcio13"
 		(at 328.93 182.88 0)
 		(effects
 			(font
@@ -17506,7 +17311,7 @@
 		)
 		(uuid "a79d3334-b569-4853-91a2-0dd575e60698")
 	)
-	(label "adcio_14"
+	(label "adcio14"
 		(at 379.73 175.26 0)
 		(effects
 			(font
@@ -17516,7 +17321,7 @@
 		)
 		(uuid "a891a8f1-76ce-4750-b2f6-d54f1a2106c6")
 	)
-	(label "adcio_08"
+	(label "adcio8"
 		(at 227.33 177.8 0)
 		(effects
 			(font
@@ -17526,7 +17331,7 @@
 		)
 		(uuid "b1f935f3-f1b5-4c6a-a095-31e6d8656f7d")
 	)
-	(label "adcio_02"
+	(label "adcio2"
 		(at 73.66 175.26 0)
 		(effects
 			(font
@@ -17576,7 +17381,7 @@
 		)
 		(uuid "c90c5b29-124c-410a-bb9e-d809aaa568a7")
 	)
-	(label "adc_io07"
+	(label "adcio7"
 		(at 175.26 180.34 0)
 		(effects
 			(font
@@ -17586,7 +17391,7 @@
 		)
 		(uuid "d1742783-ef87-40ae-b3f0-836353c66575")
 	)
-	(label "adcio_04"
+	(label "adcio4"
 		(at 125.73 177.8 0)
 		(effects
 			(font
@@ -17606,7 +17411,7 @@
 		)
 		(uuid "e53e9750-9988-4807-badc-a30489ac9681")
 	)
-	(label "adcio_12"
+	(label "adcio12"
 		(at 328.93 177.8 0)
 		(effects
 			(font
@@ -17616,7 +17421,7 @@
 		)
 		(uuid "e8430776-3f16-4af6-b3d3-850a4c25ca8d")
 	)
-	(label "adcio_10"
+	(label "adcio10"
 		(at 278.13 175.26 0)
 		(effects
 			(font
@@ -17626,7 +17431,7 @@
 		)
 		(uuid "f7c822e4-32ba-4408-8faf-de0289597349")
 	)
-	(label "adcio_09"
+	(label "adcio9"
 		(at 227.33 182.88 0)
 		(effects
 			(font
@@ -17635,6 +17440,17 @@
 			(justify left bottom)
 		)
 		(uuid "fafe195d-f4a7-479f-9736-af28b3944adf")
+	)
+	(hierarchical_label "dfe{i2c}"
+		(shape bidirectional)
+		(at 187.96 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01787537-3308-4937-bc97-4e3c31a763e1")
 	)
 	(hierarchical_label "bpm1_cha_p"
 		(shape input)
@@ -17657,6 +17473,17 @@
 			(justify right)
 		)
 		(uuid "18f189f4-428e-467b-919f-47b6d1cdb84a")
+	)
+	(hierarchical_label "adcio[0..15]"
+		(shape output)
+		(at 187.96 229.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1919ea4d-8399-4473-8a47-67243057b061")
 	)
 	(hierarchical_label "bpm1_chd_n"
 		(shape input)
@@ -17824,7 +17651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "026248cc-fcb6-45f4-a99f-ebed6585e961")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR031"
 			(at 187.96 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -17885,85 +17712,7 @@
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My_Symbols:+5.0V")
-		(at 166.37 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1382bcab-0a5e-4335-953f-55c828e1365d")
-		(property "Reference" "#PWR055"
-			(at 166.37 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 166.37 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 166.37 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "435f7cf3-4b58-4a9f-b6cf-dfd9d04f7c19")
-		)
-		(instances
-			(project "rfsoc_balun"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR055")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -19278,83 +19027,6 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Symbols:+1.8V")
-		(at 271.78 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2acf4a8b-e054-4d13-b5a2-94ae7a2461fb")
-		(property "Reference" "#PWR02"
-			(at 271.78 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1.8V"
-			(at 271.526 177.546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 271.78 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d9e1ec98-0cc4-4f34-ae40-d528e4d55ba3")
-		)
-		(instances
-			(project "rfsoc_balun"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 340.36 189.23 0)
 		(unit 1)
@@ -19366,7 +19038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f12360e-22c9-4220-aae8-43fa858b2be2")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR038"
 			(at 340.36 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -19427,7 +19099,7 @@
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR064")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -23359,7 +23031,7 @@
 	)
 	(symbol
 		(lib_id "My_Symbols:+5.0V")
-		(at 220.98 167.64 0)
+		(at 81.28 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23367,10 +23039,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6888c7a4-0dee-4fde-8edd-ce7c2c80ce33")
-		(property "Reference" "#PWR058"
-			(at 220.98 171.45 0)
+		(uuid "424d3455-2587-40d9-a102-447f6f540390")
+		(property "Reference" "#PWR026"
+			(at 85.09 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23380,18 +23051,19 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 220.98 162.56 0)
+		(property "Value" "+3.3V_DFE"
+			(at 77.216 169.926 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 167.64 0)
+			(at 81.28 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23402,7 +23074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 167.64 0)
+			(at 81.28 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23413,7 +23085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 220.98 167.64 0)
+			(at 81.28 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23424,12 +23096,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa7b5b11-f400-4a1f-990e-37ef68724d5f")
+			(uuid "903eb45c-aa26-4a7c-9d67-26846b9b9784")
 		)
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR058")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Symbols:+5.0V")
+		(at 233.68 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "444b97a2-bdc4-43da-8bb4-0b0960aa14fb")
+		(property "Reference" "#PWR032"
+			(at 237.49 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V_DFE"
+			(at 229.616 172.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 233.68 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38f21eb5-c4d2-4038-ab2d-09d36f947f69")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Symbols:+5.0V")
+		(at 386.08 185.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "596db9cd-f5d3-493c-90ca-e0a361f647f1")
+		(property "Reference" "#PWR040"
+			(at 389.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1.8V_DFE"
+			(at 382.016 185.166 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 386.08 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "089b0923-be37-46ae-bc6e-c521fd75a1de")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -23447,7 +23275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68e07a1c-ccd2-4391-811b-5f072fa3f34c")
-		(property "Reference" "H3"
+		(property "Reference" "H1"
 			(at 66.04 222.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23541,161 +23369,7 @@
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My_Symbols:+1.8V")
-		(at 373.38 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6b3dcd41-6c2e-4676-9ca6-fa0135f98835")
-		(property "Reference" "#PWR065"
-			(at 373.38 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1.8V"
-			(at 373.126 177.546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 373.38 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0966eca0-a4f5-4e71-96a4-df67882cbeb5")
-		)
-		(instances
-			(project "rfsoc_balun"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My_Symbols:+5.0V")
-		(at 322.58 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c1948cd-ac04-4c46-87b9-751c5b3371cd")
-		(property "Reference" "#PWR062"
-			(at 322.58 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 322.326 166.116 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 322.58 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 322.58 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 322.58 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae1a3cee-9be2-4ee9-87ef-ed37179c3888")
-		)
-		(instances
-			(project "rfsoc_balun"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR062")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -25021,7 +24695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bc3a579-f8fc-432e-a94a-00b94f8243cb")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR027"
 			(at 86.36 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -25082,7 +24756,7 @@
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR050")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -26397,161 +26071,6 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Symbols:+5.0V")
-		(at 64.77 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9254504a-6356-4089-abfe-efb939aa4af3")
-		(property "Reference" "#PWR051"
-			(at 64.77 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 64.77 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 64.77 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a8e3186-3a1f-4b83-942c-68df53cc12a0")
-		)
-		(instances
-			(project "rfsoc_balun"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My_Symbols:+5.0V")
-		(at 373.38 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "956eeefd-5191-471c-b2b7-20d3d83ec37f")
-		(property "Reference" "#PWR063"
-			(at 373.38 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 373.126 162.306 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 373.38 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "278ab58a-25b1-4649-ab3d-bdee825a2895")
-		)
-		(instances
-			(project "rfsoc_balun"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "my-symbols:LPAM-50-01.0-X-08-X-K")
 		(at 256.54 124.46 0)
 		(unit 5)
@@ -27860,6 +27379,84 @@
 		)
 	)
 	(symbol
+		(lib_id "My_Symbols:+5.0V")
+		(at 132.08 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97e546c3-0c1e-41c4-8b01-ceaa20199196")
+		(property "Reference" "#PWR028"
+			(at 135.89 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V_DFE"
+			(at 128.016 172.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 132.08 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8d1a4a6-a6d3-41c2-b2c1-0007b686ff41")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 391.16 189.23 0)
 		(unit 1)
@@ -27871,7 +27468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0fe7793-6282-41f4-9083-7517498130e8")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR041"
 			(at 391.16 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -27932,84 +27529,7 @@
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My_Symbols:+5.0V")
-		(at 271.78 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a287c54d-1b40-4971-a04b-2b4bb1ced3aa")
-		(property "Reference" "#PWR060"
-			(at 271.78 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 271.526 162.306 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 271.78 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfc142f2-4978-4497-aea9-6f70eb8015c8")
-		)
-		(instances
-			(project "rfsoc_balun"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR060")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -28027,7 +27547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af87cb3d-ff23-4fef-8db9-71311eecf307")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR029"
 			(at 137.16 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -28088,7 +27608,7 @@
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR054")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -29403,6 +28923,162 @@
 		)
 	)
 	(symbol
+		(lib_id "My_Symbols:+5.0V")
+		(at 284.48 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8671450-55ea-4bc6-9102-d4d5db3f97d3")
+		(property "Reference" "#PWR034"
+			(at 288.29 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V_DFE"
+			(at 280.416 169.926 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 284.48 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13db1d8d-0c18-4c26-ae7e-6a6cbdccb9f0")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Symbols:+5.0V")
+		(at 284.48 185.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1379c32-e73d-4c05-88f4-b662f3356fc5")
+		(property "Reference" "#PWR035"
+			(at 288.29 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1.8V_DFE"
+			(at 280.416 185.166 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 284.48 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2af8f3b9-0dca-47dd-b9a0-7ad96495400a")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 289.56 189.23 0)
 		(unit 1)
@@ -29414,7 +29090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1783900-3f70-497c-bece-ae047bf0626b")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR036"
 			(at 289.56 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -29475,7 +29151,7 @@
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR061")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -29493,7 +29169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c30d74c3-370f-4bf9-a5bb-eaf4f9423ca9")
-		(property "Reference" "H4"
+		(property "Reference" "H2"
 			(at 88.9 222.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29587,7 +29263,7 @@
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -29595,7 +29271,7 @@
 	)
 	(symbol
 		(lib_id "My_Symbols:+5.0V")
-		(at 119.38 167.64 0)
+		(at 386.08 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29603,10 +29279,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d18a894c-a0f0-4d83-b9e6-121f549eebb5")
-		(property "Reference" "#PWR053"
-			(at 119.38 171.45 0)
+		(uuid "cc24a17f-a10f-4079-9a24-913ce60479ae")
+		(property "Reference" "#PWR039"
+			(at 389.89 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29616,18 +29291,19 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 119.38 162.56 0)
+		(property "Value" "+3.3V_DFE"
+			(at 382.016 169.926 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 167.64 0)
+			(at 386.08 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29638,7 +29314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 167.64 0)
+			(at 386.08 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29649,7 +29325,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 119.38 167.64 0)
+			(at 386.08 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29660,12 +29336,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "31aff5f1-45fa-4422-9af9-846a096f1d49")
+			(uuid "73be0cd4-6447-4722-aeff-5a62425ada6d")
 		)
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR053")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -29683,7 +29359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df0fea9b-7e9e-413c-a44c-01248e4816b7")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR025"
 			(at 35.56 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -29744,7 +29420,7 @@
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR028")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -29752,7 +29428,7 @@
 	)
 	(symbol
 		(lib_id "My_Symbols:+5.0V")
-		(at 17.78 167.64 0)
+		(at 335.28 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29760,10 +29436,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fba170ff-ef9e-4762-9a1d-016248e29263")
-		(property "Reference" "#PWR052"
-			(at 17.78 171.45 0)
+		(uuid "e1d60220-1141-4bef-8a19-e57b9df4a63a")
+		(property "Reference" "#PWR037"
+			(at 339.09 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29773,18 +29448,19 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 17.78 162.56 0)
+		(property "Value" "+3.3V_DFE"
+			(at 331.216 172.466 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 167.64 0)
+			(at 335.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29795,7 +29471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 167.64 0)
+			(at 335.28 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29806,7 +29482,163 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 17.78 167.64 0)
+			(at 335.28 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc3b5cf6-fe11-4ea5-b6c7-4072603e8dc0")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Symbols:+5.0V")
+		(at 182.88 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e89c0396-4347-4a55-90b5-1e057fc6f7d3")
+		(property "Reference" "#PWR030"
+			(at 186.69 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V_DFE"
+			(at 178.816 169.926 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 182.88 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6cc77fe-daa3-49af-b328-64167eb510c3")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My_Symbols:+5.0V")
+		(at 30.48 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fba170ff-ef9e-4762-9a1d-016248e29263")
+		(property "Reference" "#PWR024"
+			(at 34.29 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V_DFE"
+			(at 26.416 172.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 30.48 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29822,7 +29654,7 @@
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR052")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -29840,7 +29672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffa94334-67f2-4e2b-acc8-a881da46c57a")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR033"
 			(at 238.76 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -29901,7 +29733,7 @@
 		(instances
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR059")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)

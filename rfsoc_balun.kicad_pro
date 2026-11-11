@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -543,8 +540,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -555,7 +552,7 @@
       "plot": "fab/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "rfsoc_balun.step",
       "svg": "",
       "vrml": ""
     },
@@ -698,7 +695,12 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "i2c": [
+        "sda",
+        "scl"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -747,7 +749,7 @@
         "uuid": "b2968a5f-c0a7-4c76-a952-ee50058f88fb"
       }
     ],
-    "used_designators": "#PWR2,#PWR9-17,#PWR23,#PWR28,#PWR34-48,#PWR50-55,#PWR57-66,C1-11,C15,C19-22,H1-4,J4-14,T1-8",
+    "used_designators": "L1,L20,U1-5,U27,R1-21,R113-121,R123-126,R153-154,MT1-4,#PWR1-112,#PWR114-115,#PWR117-120,#PWR125-128,#PWR130,#PWR135-142,#PWR158,#PWR193-205,#PWR238,#PWR258-266,D18-20,C1-38,C51,C102-103,H1-4,T1-16,J1-20",
     "variants": []
   },
   "sheets": [
@@ -756,8 +758,8 @@
       "rfsoc_balun"
     ],
     [
-      "9a63afb4-4357-4d00-8dbd-b5a3ae11b067",
-      "balun0"
+      "a1ea4d38-9890-4824-ab86-87f71e857f4c",
+      "adc balun0"
     ],
     [
       "a516e40e-c53e-4e46-af8a-b800be6e703d",
@@ -768,36 +770,60 @@
       "rfsoc_dac_conn"
     ],
     [
-      "030c4347-497f-43dc-a470-27a59cbbcdca",
-      "balun1"
+      "edb9a72b-bd1c-474f-8532-4c8534744da3",
+      "adc balun1"
     ],
     [
       "a54fc00f-fafd-4737-8233-9eaf2c6b1971",
       "Regulators"
     ],
     [
-      "06cfc97d-180b-43a7-a5ba-82989dad3f65",
-      "balun2"
+      "101d73de-2102-4409-a751-b40b13b1acb6",
+      "adc balun2"
     ],
     [
-      "d0a17c05-3cc9-46dc-a691-39abe39c612d",
-      "balun3"
+      "f7003179-ba46-4c34-a202-12e0ecfe739a",
+      "adc balun3"
     ],
     [
-      "5c182b0d-d4f6-4a15-b24e-d615f3221681",
-      "balun4"
+      "1b1ea5ca-ca96-4529-8099-80d7f9d5362e",
+      "adc balun4"
     ],
     [
-      "c2af65b9-1a97-4dc3-8640-4dad4455c0c3",
-      "balun5"
+      "67014832-5790-4741-80e9-0b551a65e29c",
+      "adc balun5"
     ],
     [
-      "aed26663-ea16-4ad7-9d65-71da2d47e497",
-      "balun6"
+      "6cded731-f053-4fb1-8097-09474e4223b7",
+      "adc balun6"
     ],
     [
-      "e9940ecf-a6b8-461f-a9bf-ff0d3ec16806",
-      "balun7"
+      "3ea6ec3f-a617-49fe-b123-48598ee0cc14",
+      "adc balun7"
+    ],
+    [
+      "3e7d6542-2c9f-4cf4-9981-a604e6526771",
+      "dac balun0"
+    ],
+    [
+      "ce3c1aa8-c201-4bae-812f-7af2f5039033",
+      "dac balun1"
+    ],
+    [
+      "bea16e87-fb8a-4c93-a334-cfbcd76adb56",
+      "dac balun2"
+    ],
+    [
+      "0c0ac6c1-7c5f-49f1-8dab-73d5c504c887",
+      "dac balun3"
+    ],
+    [
+      "e5bcf899-d233-456b-97ba-6c688ad2936a",
+      "rf interface"
+    ],
+    [
+      "0069bb96-c895-4c73-b7e1-677baa5a71d2",
+      "i2c mux"
     ]
   ],
   "text_variables": {},
