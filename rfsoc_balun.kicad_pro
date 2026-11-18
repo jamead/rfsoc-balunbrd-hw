@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -535,14 +538,36 @@
         "via_diameter": 0.508,
         "via_drill": 0.254,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.2032,
+        "name": "diff_100",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2032,
+        "tuning_profile": "",
+        "via_diameter": 0.508,
+        "via_drill": 0.254
       }
     ],
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "net_colors": {},
+    "netclass_assignments": {},
+    "netclass_patterns": [
+      {
+        "netclass": "diff_100",
+        "pattern": "/rfsoc_adc_conn/ADC*_P"
+      },
+      {
+        "netclass": "diff_100",
+        "pattern": "/rfsoc_adc_conn/ADC*_N"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -749,7 +774,7 @@
         "uuid": "b2968a5f-c0a7-4c76-a952-ee50058f88fb"
       }
     ],
-    "used_designators": "L1,L20,U1-5,U27,R1-21,R113-121,R123-126,R153-154,MT1-4,#PWR1-112,#PWR114-115,#PWR117-120,#PWR125-128,#PWR130,#PWR135-142,#PWR158,#PWR193-205,#PWR238,#PWR258-266,D18-20,C1-38,C51,C102-103,H1-4,T1-16,J1-20",
+    "used_designators": "#PWR1-112,#PWR114-115,#PWR117-120,#PWR125-128,#PWR130,#PWR135-142,#PWR158,#PWR193-205,#PWR238,#PWR258-266,C1-38,C51,C102-103,D18-20,H1-4,J1-20,L1,L20,MT1-4,R1-21,R113-121,R123-126,R153-154,T1-16,U1-5,U27",
     "variants": []
   },
   "sheets": [
