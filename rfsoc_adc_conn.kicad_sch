@@ -133,27 +133,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
+			(property "Reference" "H1"
+				(at 2.54 2.5401 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "JSO-0415-01"
-				(at 0 4.445 0)
+				(at 2.54 0.0001 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "My_Footprints:JSO_0415_01"
+			(property "Footprint" "My_Footprints:JSO-0415-01"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -23297,7 +23299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "My_Footprints:JSO_0415_01"
+		(property "Footprint" "My_Footprints:JSO-0415-01"
 			(at 63.5 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -29191,7 +29193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "My_Footprints:JSO_0415_01"
+		(property "Footprint" "My_Footprints:JSO-0415-01"
 			(at 86.36 224.79 0)
 			(hide yes)
 			(show_name no)

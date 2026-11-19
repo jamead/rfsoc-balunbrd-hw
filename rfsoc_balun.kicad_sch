@@ -936,6 +936,16 @@
 	)
 	(wire
 		(pts
+			(xy 397.51 213.36) (xy 397.51 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ff53b8-d6e0-44eb-9150-b5284c18a57c")
+	)
+	(wire
+		(pts
 			(xy 124.46 90.17) (xy 130.81 90.17)
 		)
 		(stroke
@@ -1003,6 +1013,16 @@
 			(type default)
 		)
 		(uuid "63c875ad-c7ad-43a7-9808-3411905a9960")
+	)
+	(wire
+		(pts
+			(xy 377.19 213.36) (xy 377.19 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6480a2b9-88c5-4806-a68e-f77885f1b0d1")
 	)
 	(wire
 		(pts
@@ -1154,6 +1174,16 @@
 		)
 		(uuid "9b40ee36-dfe6-4a0f-8020-14e030dffb10")
 	)
+	(bus
+		(pts
+			(xy 105.41 219.71) (xy 134.62 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf91353-3213-4234-94e6-d0afe1305d61")
+	)
 	(wire
 		(pts
 			(xy 265.43 58.42) (xy 271.78 58.42)
@@ -1163,6 +1193,16 @@
 			(type default)
 		)
 		(uuid "a5c501d5-dc16-4db5-aa2b-146c800986bb")
+	)
+	(wire
+		(pts
+			(xy 387.35 213.36) (xy 387.35 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7626fa3-444d-4bab-90f7-8ad694594303")
 	)
 	(wire
 		(pts
@@ -1306,6 +1346,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 213.36) (xy 367.03 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2d6317-d3a3-43c4-b61c-db8ad5f76324")
+	)
+	(wire
+		(pts
 			(xy 293.37 57.15) (xy 307.34 57.15)
 		)
 		(stroke
@@ -1383,6 +1433,85 @@
 			(justify right bottom)
 		)
 		(uuid "44651974-1fc2-4c88-a345-93d6e79d2ef2")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 397.51 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02898d5e-d7b9-4df0-a843-20ea92741af1")
+		(property "Reference" "#PWR0146"
+			(at 397.51 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 397.51 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 397.51 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 397.51 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 397.51 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75b70d4b-9244-4da3-94ef-2762e1f3970a")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1783,6 +1912,86 @@
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
 					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 397.51 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a18e4ba-ed27-4dc3-9259-15de27ef94b0")
+		(property "Reference" "MT8"
+			(at 400.05 208.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 400.05 210.8199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 397.51 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 397.51 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 397.51 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcce68bb-d681-48f9-af5c-8fcde93579fd")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "MT8")
 					(unit 1)
 				)
 			)
@@ -2429,6 +2638,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 387.35 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38c1a637-2da2-4349-bfac-e83ef61c7c48")
+		(property "Reference" "#PWR0145"
+			(at 387.35 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 387.35 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 387.35 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.35 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 387.35 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c30d152a-4305-44d3-96ea-c223a5c5f3d9")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 88.9 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -2749,6 +3037,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 377.19 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50de059e-5aee-41ed-9d90-a157fefcc0e4")
+		(property "Reference" "#PWR0144"
+			(at 377.19 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 377.19 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 377.19 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5c62c52-c8dd-4b9d-b969-87633b7e9da1")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 88.9 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -2821,6 +3188,86 @@
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 377.19 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5867ec4e-d44f-4910-9f48-f53992feb25f")
+		(property "Reference" "MT6"
+			(at 379.73 208.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 379.73 210.8199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 377.19 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 377.19 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4af7dc5-0407-437a-ad9b-f2edb059552d")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "MT6")
 					(unit 1)
 				)
 			)
@@ -2983,6 +3430,85 @@
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
 					(reference "MT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 367.03 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71a89bb6-c8a0-4218-be27-41eaf8f1c28f")
+		(property "Reference" "#PWR0143"
+			(at 367.03 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 367.03 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 367.03 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cfce6f5-df31-4600-9083-ff4724ebf367")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -3220,6 +3746,166 @@
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 367.03 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0ecf581-b795-450c-bf78-22ed47ab7ad8")
+		(property "Reference" "MT5"
+			(at 369.57 208.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 369.57 210.8199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 367.03 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 367.03 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fc8acf9-1b3e-4dec-960c-dfbe7e55cbe5")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "MT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 387.35 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a51b8ae1-4c4a-4213-8502-29af0488106c")
+		(property "Reference" "MT7"
+			(at 389.89 208.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 389.89 210.8199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 387.35 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.35 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 387.35 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59c02884-62d2-4526-81bd-ea2c9c879de1")
+		)
+		(instances
+			(project "rfsoc_balun"
+				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb"
+					(reference "MT7")
 					(unit 1)
 				)
 			)
@@ -4512,6 +5198,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "dac{i2c}" bidirectional
+			(at 134.62 219.71 180)
+			(uuid "e7a86d9b-ae34-4d84-8033-85de21d50482")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

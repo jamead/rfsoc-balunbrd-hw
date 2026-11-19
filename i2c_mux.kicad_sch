@@ -1964,6 +1964,16 @@
 		)
 		(uuid "34116e87-3690-4377-8335-90899817e3b9")
 	)
+	(label "dac.scl"
+		(at 140.97 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47470591-7a11-4b13-8530-0cfdd1712325")
+	)
 	(label "afe1.scl"
 		(at 140.97 91.44 0)
 		(effects
@@ -1993,6 +2003,16 @@
 			(justify left bottom)
 		)
 		(uuid "8263efd0-3bd5-42ee-bfb9-4b4a60a51a19")
+	)
+	(label "dac.sda"
+		(at 140.97 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d31b776-3cde-460a-a67d-51ca34d23b27")
 	)
 	(label "reg.scl"
 		(at 140.97 81.28 0)
