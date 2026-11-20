@@ -1,0 +1,59 @@
+{
+  "name": "RF_Balun_Cage_T1-T4_ClosedOutput_R1",
+  "outer_size_mm": [
+    70.87,
+    22.35,
+    10.0
+  ],
+  "cavity_size_mm": [
+    12.4,
+    12.2,
+    8.5
+  ],
+  "inner_radius_mm": 1.0,
+  "cavity_pitch_mm": 15.24,
+  "input_slots": {
+    "side": "-Y",
+    "width_mm": 2.5,
+    "height_mm": 1.5
+  },
+  "output_side": "+Y fully closed",
+  "roof_mm": 1.5,
+  "mounts_mm": [
+    [
+      -9.826,
+      -8.5
+    ],
+    [
+      22.86,
+      -8.5
+    ],
+    [
+      55.546,
+      -8.5
+    ],
+    [
+      -9.826,
+      8.7
+    ],
+    [
+      22.86,
+      8.7
+    ],
+    [
+      55.546,
+      8.7
+    ]
+  ],
+  "tapped_hole_callout": "6 x M2.5 x 0.45 blind; tap-drill diameter 2.05; straight drill depth 4.5 plus drill point; no helical threads modelled",
+  "footprint_through_pads_preserved": 8,
+  "continuous_copper_land": true,
+  "model_valid": true,
+  "model_volume_mm3": 10557.678078451787,
+  "unconfirmed_dimensions": [
+    "overall height",
+    "roof thickness",
+    "input slot height",
+    "tap depth"
+  ]
+}

@@ -250,6 +250,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.254
         }
       ],
       "zones_allow_external_fillets": false
@@ -541,8 +545,8 @@
       },
       {
         "clearance": 0.2032,
-        "diff_pair_gap": 0.1524,
-        "diff_pair_width": 0.2032,
+        "diff_pair_gap": 0.1016,
+        "diff_pair_width": 0.14478,
         "name": "diff_100",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
