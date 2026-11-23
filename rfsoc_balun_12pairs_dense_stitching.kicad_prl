@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 8,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -33,6 +33,7 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
+      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
@@ -52,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_fffd7ff5",
+    "visible_layers": "00000000_00000000_00000000_800205bf",
     "zone_display_mode": 0
   },
   "git": {
@@ -62,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "rfsoc_balun_all_pairs_arcs.kicad_prl",
+    "filename": "rfsoc_balun_12pairs_dense_stitching.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

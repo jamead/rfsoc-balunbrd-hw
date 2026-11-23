@@ -63,7 +63,7 @@
           "min_clearance": 0.2032,
           "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -218,6 +215,7 @@
         0.22,
         0.254,
         0.3048,
+        0.508,
         1.016
       ],
       "tuning_pattern_settings": {
@@ -254,6 +252,10 @@
         {
           "diameter": 0.508,
           "drill": 0.254
+        },
+        {
+          "diameter": 0.6096,
+          "drill": 0.3048
         }
       ],
       "zones_allow_external_fillets": false
@@ -526,18 +528,18 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2032,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.254,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.254,
+        "microvia_drill": 0.254,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.28448,
+        "track_width": 0.1524,
         "tuning_profile": "",
         "via_diameter": 0.508,
         "via_drill": 0.254,
@@ -549,9 +551,20 @@
         "diff_pair_width": 0.14478,
         "name": "diff_100",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2032,
+        "tuning_profile": "",
+        "via_diameter": 0.508,
+        "via_drill": 0.254
+      },
+      {
+        "clearance": 0.2032,
+        "name": "se_50",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28448,
         "tuning_profile": "",
         "via_diameter": 0.508,
         "via_drill": 0.254
@@ -560,8 +573,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "diff_100",
@@ -570,6 +583,14 @@
       {
         "netclass": "diff_100",
         "pattern": "/rfsoc_adc_conn/ADC*_N"
+      },
+      {
+        "netclass": "diff_100",
+        "pattern": "/rfsoc_dac_conn/DAC*_P"
+      },
+      {
+        "netclass": "diff_100",
+        "pattern": "/rfsoc_dac_conn/DAC*_N"
       }
     ]
   },
@@ -778,7 +799,7 @@
         "uuid": "b2968a5f-c0a7-4c76-a952-ee50058f88fb"
       }
     ],
-    "used_designators": "#PWR1-112,#PWR114-115,#PWR117-120,#PWR125-128,#PWR130,#PWR135-146,#PWR158,#PWR193-205,#PWR238,#PWR258-266,C1-38,C51,C102-103,C126,D18-20,H1-4,J1-20,L1,L20,MT1-8,R1-21,R113-121,R123-126,R153-154,T1-16,U1-5,U27",
+    "used_designators": "#PWR1-112,#PWR114-115,#PWR117-120,#PWR125-128,#PWR130,#PWR135-146,#PWR158,#PWR193-205,#PWR238,#PWR258-266,C1-38,C51,C102-103,C126,D18-20,H1-4,T1-16,J1-20,L1,L20,MT1-8,R1-21,R113-121,R123-126,R153-154,U1-5,U27",
     "variants": []
   },
   "sheets": [
