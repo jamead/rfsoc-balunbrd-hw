@@ -1414,7 +1414,7 @@
 		)
 		(uuid "ff3c4d39-27be-4c49-80f8-cb549fa71858")
 	)
-	(label "dacio0"
+	(label "dacio1"
 		(at 190.5 208.28 180)
 		(effects
 			(font
@@ -1424,7 +1424,7 @@
 		)
 		(uuid "338d9bc2-3dc3-4f40-8f6a-7d8230f029ae")
 	)
-	(label "dacio1"
+	(label "dacio0"
 		(at 207.01 198.12 180)
 		(effects
 			(font
@@ -6564,9 +6564,9 @@
 				(justify right)
 			)
 		)
-		(pin "dacio[8..15]" input
+		(pin "dacio[0..15]" input
 			(at 105.41 238.76 0)
-			(uuid "3bee886a-26fa-4a07-ae1d-05b33954f100")
+			(uuid "cad99e05-62af-49a8-b435-c7e30605ded2")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -7568,7 +7568,7 @@
 		)
 		(uuid "1126f571-2457-479f-8609-f5ab446b21b6")
 	)
-	(hierarchical_label "dacio[8..15]"
+	(hierarchical_label "dacio[0..15]"
 		(shape input)
 		(at 82.55 196.85 180)
 		(effects
