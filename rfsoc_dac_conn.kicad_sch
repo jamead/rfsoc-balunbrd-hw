@@ -5,121 +5,6 @@
 	(uuid "ad29aaae-a78f-496d-bd10-ffe5d7c6755d")
 	(paper "B")
 	(lib_symbols
-		(symbol "my-symbols:+1.8V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+1.8V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-15V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+1.8V_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "+1.8V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "my-symbols:+12V"
 			(power global)
 			(pin_numbers
@@ -8244,6 +8129,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "1.8v NC"
+		(exclude_from_sim no)
+		(at 79.248 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "194091e2-7321-44e1-8b53-1acb6c519c99")
+	)
+	(text "1.8v NC"
+		(exclude_from_sim no)
+		(at 180.848 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ad500d03-a76e-47ae-9366-026e7adea424")
+	)
 	(junction
 		(at 133.35 74.93)
 		(diameter 0)
@@ -11857,16 +11762,6 @@
 			(type default)
 		)
 		(uuid "3b9da960-a979-40aa-bb96-19fd618ab769")
-	)
-	(wire
-		(pts
-			(xy 78.74 59.69) (xy 85.09 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bb767e7-84a2-430c-95da-0219ccb7f260")
 	)
 	(wire
 		(pts
@@ -16980,16 +16875,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 59.69) (xy 186.69 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f30de152-3d99-4d05-b4de-ac461ae8aa50")
-	)
-	(wire
-		(pts
 			(xy 336.55 128.27) (xy 339.09 128.27)
 		)
 		(stroke
@@ -20779,83 +20664,6 @@
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/47651992-da03-4b83-8730-23d042b1f195"
 					(reference "J11")
 					(unit 7)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "my-symbols:+1.8V")
-		(at 180.34 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "276341a5-bbf2-4278-b085-8e8cd909d43e")
-		(property "Reference" "#PWR052"
-			(at 184.15 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1.8V_DFE"
-			(at 171.704 59.436 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
-			(at 180.34 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 180.34 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64f9bbe8-ce95-4a63-8f42-f47947744523")
-		)
-		(instances
-			(project "rfsoc_balun"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/47651992-da03-4b83-8730-23d042b1f195"
-					(reference "#PWR052")
-					(unit 1)
 				)
 			)
 		)
@@ -29031,83 +28839,6 @@
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/47651992-da03-4b83-8730-23d042b1f195"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "my-symbols:+1.8V")
-		(at 78.74 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e97e6984-9b71-4491-8e22-f9fb3ecf0947")
-		(property "Reference" "#PWR045"
-			(at 82.55 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1.8V_DFE"
-			(at 69.342 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
-			(at 78.74 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 78.74 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef6ffb67-ceee-497e-b493-d9ea4355ab08")
-		)
-		(instances
-			(project "rfsoc_balun"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/47651992-da03-4b83-8730-23d042b1f195"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)

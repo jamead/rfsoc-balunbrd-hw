@@ -7899,6 +7899,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "1.8v NC"
+		(exclude_from_sim no)
+		(at 385.826 185.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "537f8be2-1de7-4c03-ab92-3c627ad80480")
+	)
+	(text "1.8v NC"
+		(exclude_from_sim no)
+		(at 283.972 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf70b3f8-6b93-4503-bac8-1fbd885c203b")
+	)
 	(junction
 		(at 289.56 104.14)
 		(diameter 0)
@@ -9902,16 +9922,6 @@
 			(type default)
 		)
 		(uuid "020eadfb-66c0-4a08-bf2a-26e963037e2f")
-	)
-	(wire
-		(pts
-			(xy 393.7 185.42) (xy 386.08 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "023972f1-b52d-40b3-9c90-5b874eb8c13f")
 	)
 	(wire
 		(pts
@@ -13652,16 +13662,6 @@
 			(type default)
 		)
 		(uuid "82f9be92-e1f3-42e1-ae4c-500fcf674d4c")
-	)
-	(wire
-		(pts
-			(xy 292.1 185.42) (xy 284.48 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c0e99f-9ca7-40d1-aba2-a1daa509e27d")
 	)
 	(wire
 		(pts
@@ -23188,84 +23188,6 @@
 		)
 	)
 	(symbol
-		(lib_id "My_Symbols:+5.0V")
-		(at 386.08 185.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "596db9cd-f5d3-493c-90ca-e0a361f647f1")
-		(property "Reference" "#PWR040"
-			(at 389.89 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1.8V_DFE"
-			(at 382.016 185.166 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 386.08 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 386.08 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 386.08 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "089b0923-be37-46ae-bc6e-c521fd75a1de")
-		)
-		(instances
-			(project "rfsoc_balun"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "my-symbols:JSO-0415-01")
 		(at 63.5 224.79 0)
 		(unit 1)
@@ -28997,84 +28919,6 @@
 			(project "rfsoc_balun"
 				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My_Symbols:+5.0V")
-		(at 284.48 185.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c1379c32-e73d-4c05-88f4-b662f3356fc5")
-		(property "Reference" "#PWR035"
-			(at 288.29 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1.8V_DFE"
-			(at 280.416 185.166 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 284.48 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 284.48 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 284.48 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2af8f3b9-0dca-47dd-b9a0-7ad96495400a")
-		)
-		(instances
-			(project "rfsoc_balun"
-				(path "/b2968a5f-c0a7-4c76-a952-ee50058f88fb/a516e40e-c53e-4e46-af8a-b800be6e703d"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
